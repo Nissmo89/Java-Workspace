@@ -4,7 +4,7 @@ import java.util.Random;
 import java.awt.Color;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.border.Border;
-import javax.swing.JFrame; // JFrame and JButton are part of Swing, but commonly used with AWT layouts
+import javax.swing.JFrame; 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -33,7 +33,7 @@ class test {
           Color color;
           color = randColor();
           btn.setBackground(color);
-          btn.setBorder(BorderFactory.createLineBorder(color, THICK)); // Blue border, 2 pixels thick
+          btn.setBorder(BorderFactory.createLineBorder(color, THICK));
           
         });
       }catch(Exception e){
